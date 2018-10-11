@@ -16,6 +16,7 @@ before_install:
   - git clone https://github.com/SakuraNaoc/blog.git
 install:
   - npm install hexo -g
+  - npm install hexo-renderer-jade hexo-renderer-stylus hexo-generator-search --save
 script:
   - hexo clean
   - hexo g
